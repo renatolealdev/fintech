@@ -1,0 +1,94 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.font-weight-900 {
+  font-weight: 900;
+}
+
+.scaffold {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.empty-spacer {
+  height: 15%;
+}
+
+.text-loading {
+  color: gray;
+}
+
+.img-logo {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+.btn-social-signin {
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  justify-content: center;
+  max-width: 400px;
+  width: 100%;
+  font-weight: 700;
+  padding: 18px;
+  margin: 6px;
+  border-style: solid;
+  border-color: #e2e2e2;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.btn-enter {
+  display: flex;
+  flex-direction: row;
+  background-color: #276ef1;
+  justify-content: center;
+  max-width: 400px;
+  width: 100%;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  margin: 12px;
+  border-style: solid;
+  border-color: #e2e2e2;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.btn-create-account {
+  display: flex;
+  flex-direction: row;
+  background-color: #000;
+  justify-content: center;
+  max-width: 400px;
+  width: 100%;
+  font-weight: 600;
+  color: white;
+  padding: 10px;
+  margin: 12px;
+  border-style: solid;
+  border-color: #e2e2e2;
+  border-width: 1px;
+  border-radius: 8px;
+}
+
+.icon-btn-social-signin {
+  padding-right: 4px;
+  padding-left: 4px;
+}
+
+.text-form-field {
+  max-width: 400px;
+  width: 100%;
+  margin: 6px;
+}
